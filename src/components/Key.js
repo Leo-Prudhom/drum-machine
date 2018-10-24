@@ -32,7 +32,7 @@ class Key extends Component {
     render(){
 
         if(this.props.keyPressed === this.props.keycode){
-            console.log('ok')
+            console.log(this.props.keycode)
         }
         
         return(
